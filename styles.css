@@ -59,6 +59,25 @@ body, html {
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
+.sub-header{
+    align-items: center;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+.label-genres {
+    border-color: white;
+    background-color: #141414;
+    color: white;
+    margin-left: 3%;
+}
+
+@media (min-width: 992px) {
+    .carousel-control-next,
+    .carousel-control-prev {
+      width: 5%;
+    }
+}
 
 
 @font-face {
